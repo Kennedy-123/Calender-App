@@ -1,0 +1,32 @@
+.dateContainer{
+  margin: 10% auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.dateContainer__detail{
+  background-color: red;
+  width: 20vw;
+  padding: 30px;
+  text-align: center;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.dateContainer__birthdayMessage{
+  font-size: larger;
+  font-style: italic;
+  font-weight: 800;
+}
+
+@media (max-width: 768px){
+  .dateContainer__detail{
+    width: 50vw;
+    background: linear-gradient(red,pink,blue);
+  }
+  .dateContainer__birthdayMessage{
+    text-align: center;
+  }
+}
